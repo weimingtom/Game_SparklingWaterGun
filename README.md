@@ -1,1 +1,1 @@
-# Game_SparklingWaterGun
+2年次のチーム制作。対戦型TPSです。
