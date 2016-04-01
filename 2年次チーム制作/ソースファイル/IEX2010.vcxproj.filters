@@ -1,0 +1,1339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\SYSTEM">
+      <UniqueIdentifier>{188586ad-3818-4e68-816a-e6427b522bc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="シェーダー">
+      <UniqueIdentifier>{5fc7559b-c141-4ecd-b664-927ab910afda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IEX">
+      <UniqueIdentifier>{38fbec0a-1dc8-4967-afe0-3a6584026b2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameBase">
+      <UniqueIdentifier>{a09054a1-10a1-46f4-911c-42203e22318b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\CODBO">
+      <UniqueIdentifier>{d798deb3-78ad-4812-9eb9-69191aeb6c94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Camera">
+      <UniqueIdentifier>{08943d2c-c966-4244-88ac-508335c8376a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\LuaScript">
+      <UniqueIdentifier>{7ffb7ebc-b744-468c-88eb-e51f7922ae81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Mesh">
+      <UniqueIdentifier>{73d1381e-8156-48e0-8745-2e81c8438d86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\AI">
+      <UniqueIdentifier>{bc4ba1cd-99d7-4f3d-8cdf-14b858bba380}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Sound%28Env%29">
+      <UniqueIdentifier>{7b946143-4060-4934-a451-5f3109dbea8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\AI\Brain">
+      <UniqueIdentifier>{0f35053b-cdf7-459c-aa9a-a83d7c27d62e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\AI\Behavior">
+      <UniqueIdentifier>{3bac35e9-4aa4-4099-a936-158aea021592}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\AI\Goal">
+      <UniqueIdentifier>{e9d6ba0d-d1bc-4f0a-8989-097b29198059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\AI\Symbol_&amp;_Memory">
+      <UniqueIdentifier>{d48d0255-67fc-4514-9986-e16a3d754e72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Effect">
+      <UniqueIdentifier>{5835d214-a976-499e-9cd2-6f942ab6c376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\AI\Fuzzy">
+      <UniqueIdentifier>{ec8b07be-5f91-44b5-96f1-267a03b20292}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\AI\Behavior\Animation">
+      <UniqueIdentifier>{b676a4ab-77a0-4d8b-b9c2-487875b8b8be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\AI\Censor">
+      <UniqueIdentifier>{54ad18fb-ff7d-4962-9dc9-abd8962aa8c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\AI\Goal\NPCGoal">
+      <UniqueIdentifier>{ca14a4d1-e9a8-490e-b3c8-29acbe523b0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\AI\Behavior\Goto">
+      <UniqueIdentifier>{46ef3433-a0d1-444a-95e8-a0e963231673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\AI\Utility">
+      <UniqueIdentifier>{e2359296-ae6f-4d64-9d98-e52e8a9a2a6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Debug">
+      <UniqueIdentifier>{d9f8347a-5848-4c30-a8d9-8709f0ca9597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Render%28Shader%29">
+      <UniqueIdentifier>{5d88731c-95c0-4d62-84b1-ac35f84eca7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Render%28Shader%29\RenderingInterFace">
+      <UniqueIdentifier>{8bff1031-cfa8-4e51-8c1e-3d89f52ca157}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Render%28Shader%29\ShaderClass">
+      <UniqueIdentifier>{5a7159ba-2002-4c0b-b4e3-0e5360af579e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\AI\Behavior\Manager">
+      <UniqueIdentifier>{6c35807f-08d1-461b-9c37-074d6be08192}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\AI\Behavior\Aim">
+      <UniqueIdentifier>{24bca38d-177a-4e5a-bbaa-1b9e4ca2f461}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\UI">
+      <UniqueIdentifier>{dab1cb1c-cc26-447a-8d35-2d4a9f3b29f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Map">
+      <UniqueIdentifier>{8afbdde4-9589-413c-af2c-d5e359207f1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Render%28Shader%29\screen">
+      <UniqueIdentifier>{13ee1faf-e70f-4a2e-b6cf-e917ddfc8c89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\AI\Goal\Evalutor &amp; CostCalculater">
+      <UniqueIdentifier>{45fb122c-e82b-425c-b881-dfa59ec1f1ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\AI\Goal\NotPlanningGoal">
+      <UniqueIdentifier>{5c201e5f-1883-4573-9fd0-5f3940129dc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\AI\Navigation &amp; FieldInformation">
+      <UniqueIdentifier>{785284b6-39e4-41ae-af08-2789936506ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ColaBullet">
+      <UniqueIdentifier>{a138eade-1c7f-486a-aab7-3ee0960e6c51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\SceneSelect">
+      <UniqueIdentifier>{ce7bf08c-a70d-4356-9917-26e4062837d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\SceneEnd">
+      <UniqueIdentifier>{23116ded-63a4-4248-9480-2dd2d707c9a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Utility">
+      <UniqueIdentifier>{3c72cd08-d895-40a6-a67d-37d1dcd0e13d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Utility\console">
+      <UniqueIdentifier>{a7bdda37-5269-430e-b69a-ad90ac7d3af8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ControllObj">
+      <UniqueIdentifier>{503cfd79-51f3-4891-aa7c-d10c69c666f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ControllObj\Resporn">
+      <UniqueIdentifier>{30681aff-7787-47f4-8b91-47ea13bdc6a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ControllObj\Start">
+      <UniqueIdentifier>{8c801707-8225-4355-bdd4-516135ebc5bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ControllObj\Character">
+      <UniqueIdentifier>{b25ea282-1a05-40c5-b6ff-1e7e7c531fa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ControllObj\Movie">
+      <UniqueIdentifier>{d5d0c3c7-c1ea-4afa-8fad-996a33ab265e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Controller">
+      <UniqueIdentifier>{37390e05-0425-44db-b421-ed6ee29b112e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\AI\Brain\BlackBoard">
+      <UniqueIdentifier>{605fed2b-bcbf-45f1-9334-7535f6e42686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\AI\Brain\Commander">
+      <UniqueIdentifier>{f716fa64-6b6d-4c99-828e-1754a82f31b6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\system\Framework.cpp">
+      <Filter>ソース ファイル\SYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="source\system\System.cpp">
+      <Filter>ソース ファイル\SYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="source\system\WinMain.cpp">
+      <Filter>ソース ファイル\SYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="IEX\IEX_2DObject.cpp">
+      <Filter>IEX</Filter>
+    </ClCompile>
+    <ClCompile Include="IEX\IEX_3DObject.cpp">
+      <Filter>IEX</Filter>
+    </ClCompile>
+    <ClCompile Include="IEX\IEX_Audio.cpp">
+      <Filter>IEX</Filter>
+    </ClCompile>
+    <ClCompile Include="IEX\IEX_Direct3D.cpp">
+      <Filter>IEX</Filter>
+    </ClCompile>
+    <ClCompile Include="IEX\IEX_Input.cpp">
+      <Filter>IEX</Filter>
+    </ClCompile>
+    <ClCompile Include="IEX\IEX_Light.cpp">
+      <Filter>IEX</Filter>
+    </ClCompile>
+    <ClCompile Include="IEX\IEX_Math.cpp">
+      <Filter>IEX</Filter>
+    </ClCompile>
+    <ClCompile Include="IEX\IEX_Mesh.cpp">
+      <Filter>IEX</Filter>
+    </ClCompile>
+    <ClCompile Include="IEX\IEX_Particle.cpp">
+      <Filter>IEX</Filter>
+    </ClCompile>
+    <ClCompile Include="IEX\IEX_Polygon.cpp">
+      <Filter>IEX</Filter>
+    </ClCompile>
+    <ClCompile Include="IEX\IEX_RenderState.cpp">
+      <Filter>IEX</Filter>
+    </ClCompile>
+    <ClCompile Include="IEX\IEX_Shader.cpp">
+      <Filter>IEX</Filter>
+    </ClCompile>
+    <ClCompile Include="IEX\IEX_SkinMesh.cpp">
+      <Filter>IEX</Filter>
+    </ClCompile>
+    <ClCompile Include="IEX\IEX_System.cpp">
+      <Filter>IEX</Filter>
+    </ClCompile>
+    <ClCompile Include="IEX\IEX_Texture.cpp">
+      <Filter>IEX</Filter>
+    </ClCompile>
+    <ClCompile Include="IEX\IEX_View.cpp">
+      <Filter>IEX</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GameSystem\GameController.cpp">
+      <Filter>ソース ファイル\GameBase</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GameSystem\GameBase.cpp">
+      <Filter>ソース ファイル\GameBase</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GameSystem\GameIDManager.cpp">
+      <Filter>ソース ファイル\GameBase</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CODBO_DebugMatch.cpp">
+      <Filter>ソース ファイル\CODBO</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CODBO.cpp">
+      <Filter>ソース ファイル\CODBO</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Character.cpp">
+      <Filter>ソース ファイル\ControllObj\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CharacterMoveFunction.cpp">
+      <Filter>ソース ファイル\ControllObj\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CharacterUtilityFunction.cpp">
+      <Filter>ソース ファイル\ControllObj\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Camera.cpp">
+      <Filter>ソース ファイル\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CameraMove.cpp">
+      <Filter>ソース ファイル\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ControllObjectFunction.cpp">
+      <Filter>ソース ファイル\ControllObj</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LuaScript\LuaManager.cpp">
+      <Filter>ソース ファイル\LuaScript</Filter>
+    </ClCompile>
+    <ClCompile Include="source\sceneMain.cpp">
+      <Filter>ソース ファイル\SYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TestCharacterModel.cpp">
+      <Filter>ソース ファイル\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MeshManager.cpp">
+      <Filter>ソース ファイル\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ScreenSeparation.cpp">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CharacterBrainRealPlayer.cpp">
+      <Filter>ソース ファイル\ControllObj\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CharacterMoveState.cpp">
+      <Filter>ソース ファイル\ControllObj\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ControllObjectManager.cpp">
+      <Filter>ソース ファイル\ControllObj</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LuaLoadParam.cpp">
+      <Filter>ソース ファイル\LuaScript</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TextLoader\itTextLoader.cpp">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CharacterMoveStateMessageFunc.cpp">
+      <Filter>ソース ファイル\ControllObj\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="source\itDebugStringManager.cpp">
+      <Filter>ソース ファイル\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ConrollObject.cpp">
+      <Filter>ソース ファイル\ControllObj</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Collision.cpp">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ColaBullet.cpp">
+      <Filter>ソース ファイル\ColaBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ColaWater.cpp">
+      <Filter>ソース ファイル\ColaBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BillBoard.cpp">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ParentAndChild.cpp">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="source\textLoader.cpp">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CharacterModel.cpp">
+      <Filter>ソース ファイル\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TriggerManager.cpp">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DamageHit.cpp">
+      <Filter>ソース ファイル\ColaBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PartsMotionMesh.cpp">
+      <Filter>ソース ファイル\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CharacterWepon.cpp">
+      <Filter>ソース ファイル\ControllObj\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AimPoint.cpp">
+      <Filter>ソース ファイル\ColaBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ColorUtility.cpp">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RenderLine.cpp">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GameMatchInfomation.cpp">
+      <Filter>ソース ファイル\CODBO</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CODBO_FlagMatch.cpp">
+      <Filter>ソース ファイル\CODBO</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ControllerManager.cpp">
+      <Filter>ソース ファイル\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Effect\EffectBase.cpp">
+      <Filter>ソース ファイル\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\CP11_Rand.cpp">
+      <Filter>ソース ファイル\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\NPC_CharacterParam.cpp">
+      <Filter>ソース ファイル\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\NPC_MessageDispatcher.cpp">
+      <Filter>ソース ファイル\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\NPC_PathSearchAlg.cpp">
+      <Filter>ソース ファイル\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\NPC_Predicate.cpp">
+      <Filter>ソース ファイル\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\Behavior_UseObject.cpp">
+      <Filter>ソース ファイル\AI\Behavior</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\B_ShotWeapon.cpp">
+      <Filter>ソース ファイル\AI\Behavior\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\FuzzyModule.cpp">
+      <Filter>ソース ファイル\AI\Fuzzy</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\FuzzyOperator.cpp">
+      <Filter>ソース ファイル\AI\Fuzzy</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\FuzzyRule.cpp">
+      <Filter>ソース ファイル\AI\Fuzzy</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\FuzzySet.cpp">
+      <Filter>ソース ファイル\AI\Fuzzy</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\FuzzyVariable.cpp">
+      <Filter>ソース ファイル\AI\Fuzzy</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\Goal.cpp">
+      <Filter>ソース ファイル\AI\Goal</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\NPC_Censor_AttackME.cpp">
+      <Filter>ソース ファイル\AI\Censor</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\NPC_Censor_Sight.cpp">
+      <Filter>ソース ファイル\AI\Censor</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\NPC_WorkingMemory.cpp">
+      <Filter>ソース ファイル\AI\Symbol_&amp;_Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\NPC_Symbol.cpp">
+      <Filter>ソース ファイル\AI\Symbol_&amp;_Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\NPC_Record.cpp">
+      <Filter>ソース ファイル\AI\Symbol_&amp;_Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\NPC_ActionPlanner.cpp">
+      <Filter>ソース ファイル\AI\Brain</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\NPC_Brain.cpp">
+      <Filter>ソース ファイル\AI\Brain</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\NPC_GoalPlanningKey.cpp">
+      <Filter>ソース ファイル\AI\Goal</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\NPC_FieldDebugger.cpp">
+      <Filter>ソース ファイル\AI\Navigation &amp; FieldInformation</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WaterPool.cpp">
+      <Filter>ソース ファイル\ColaBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="source\map\ObjectLoader.cpp">
+      <Filter>ソース ファイル\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PolygonEffect\EffectClass.cpp">
+      <Filter>ソース ファイル\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PolygonEffect\AnimationEffect.cpp">
+      <Filter>ソース ファイル\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EffectResource.cpp">
+      <Filter>ソース ファイル\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\ChargeWeapon_Goal.cpp">
+      <Filter>ソース ファイル\AI\Goal\NPCGoal</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\CorrespondenceDenger_Goal.cpp">
+      <Filter>ソース ファイル\AI\Goal\NPCGoal</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\Hidden_Goal.cpp">
+      <Filter>ソース ファイル\AI\Goal\NPCGoal</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\MedicalFriend_Goal.cpp">
+      <Filter>ソース ファイル\AI\Goal\NPCGoal</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\Scouting_Goal.cpp">
+      <Filter>ソース ファイル\AI\Goal\NPCGoal</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\MemoryFuntion.cpp">
+      <Filter>ソース ファイル\AI\Symbol_&amp;_Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\Bahavior_MovePoint.cpp">
+      <Filter>ソース ファイル\AI\Behavior\Goto</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\Behavior_MoveEdge.cpp">
+      <Filter>ソース ファイル\AI\Behavior\Goto</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\B_ChargeWeapon.cpp">
+      <Filter>ソース ファイル\AI\Behavior\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\B_Lookback.cpp">
+      <Filter>ソース ファイル\AI\Behavior\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DebugParticle.cpp">
+      <Filter>ソース ファイル\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="source\console\WindowClass.cpp">
+      <Filter>ソース ファイル\Utility\console</Filter>
+    </ClCompile>
+    <ClCompile Include="source\console\MyConsole.cpp">
+      <Filter>ソース ファイル\Utility\console</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\Environmental_Sound.cpp">
+      <Filter>ソース ファイル\Sound%28Env%29</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\NPC_WayPointInformation.cpp">
+      <Filter>ソース ファイル\AI\Navigation &amp; FieldInformation</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\Goal_Think.cpp">
+      <Filter>ソース ファイル\AI\Brain</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\NPC_Censor_Hearing.cpp">
+      <Filter>ソース ファイル\AI\Censor</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CharacterModelResource.cpp">
+      <Filter>ソース ファイル\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BlendAnimationMesh.cpp">
+      <Filter>ソース ファイル\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LuaKeyDefine.cpp">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="source\stencil\StencilClip.cpp">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="source\map\ShareRatioObjectAim.cpp">
+      <Filter>ソース ファイル\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="source\map\ShareRatioObject.cpp">
+      <Filter>ソース ファイル\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="source\map\MapObject.cpp">
+      <Filter>ソース ファイル\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TextureManager.cpp">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="source\StartCountDown.cpp">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\Temporary_PlanningMemory.cpp">
+      <Filter>ソース ファイル\AI\Symbol_&amp;_Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\Goal_GetAdvertisementPoint.cpp">
+      <Filter>ソース ファイル\AI\Goal\NPCGoal</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CODBO_ShareMatch.cpp">
+      <Filter>ソース ファイル\CODBO</Filter>
+    </ClCompile>
+    <ClCompile Include="source\map\Truck.cpp">
+      <Filter>ソース ファイル\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\Goal_WanderField.cpp">
+      <Filter>ソース ファイル\AI\Goal\NPCGoal</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\GoalResult.cpp">
+      <Filter>ソース ファイル\AI\Symbol_&amp;_Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="source\screen\R_InterFace_Character.cpp">
+      <Filter>ソース ファイル\Render%28Shader%29\RenderingInterFace</Filter>
+    </ClCompile>
+    <ClCompile Include="source\screen\R_InterFace_MainStage.cpp">
+      <Filter>ソース ファイル\Render%28Shader%29\RenderingInterFace</Filter>
+    </ClCompile>
+    <ClCompile Include="source\screen\R_InterFace_Poster.cpp">
+      <Filter>ソース ファイル\Render%28Shader%29\RenderingInterFace</Filter>
+    </ClCompile>
+    <ClCompile Include="source\screen\R_InterFace_RespawnObject.cpp">
+      <Filter>ソース ファイル\Render%28Shader%29\RenderingInterFace</Filter>
+    </ClCompile>
+    <ClCompile Include="source\screen\R_InterFace_Truck.cpp">
+      <Filter>ソース ファイル\Render%28Shader%29\RenderingInterFace</Filter>
+    </ClCompile>
+    <ClCompile Include="source\screen\Screen_Creater.cpp">
+      <Filter>ソース ファイル\Render%28Shader%29\screen</Filter>
+    </ClCompile>
+    <ClCompile Include="source\screen\Radiation_Blur.cpp">
+      <Filter>ソース ファイル\Render%28Shader%29\ShaderClass</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ShadowMap.cpp">
+      <Filter>ソース ファイル\Render%28Shader%29\ShaderClass</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\Behavior_ProcessFunction.cpp">
+      <Filter>ソース ファイル\AI\Behavior</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TeamViewData.cpp">
+      <Filter>ソース ファイル\CODBO</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RespornControllobj.cpp">
+      <Filter>ソース ファイル\ControllObj\Resporn</Filter>
+    </ClCompile>
+    <ClCompile Include="source\StartControllobj.cpp">
+      <Filter>ソース ファイル\ControllObj\Start</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\Beahvior_Manager.cpp">
+      <Filter>ソース ファイル\AI\Behavior\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\Accesor_Brain.cpp">
+      <Filter>ソース ファイル\AI\Brain</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\NPC_Evalutor.cpp">
+      <Filter>ソース ファイル\AI\Brain</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\NPC_Factory.cpp">
+      <Filter>ソース ファイル\AI\Brain</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\NPC_FuzzyTool.cpp">
+      <Filter>ソース ファイル\AI\Brain</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\NPC_Aim.cpp">
+      <Filter>ソース ファイル\AI\Behavior\Aim</Filter>
+    </ClCompile>
+    <ClCompile Include="source\YenRender.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ShareIcon.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ScreenIcon.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ScoreCalcManager.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CharacterUI.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ColaGameGauge.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ColaGauge.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ScreenPositionEffect.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CharacterAim.cpp">
+      <Filter>ソース ファイル\ControllObj\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Grenade.cpp">
+      <Filter>ソース ファイル\ColaBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\GrenadeAttack_Goal.cpp">
+      <Filter>ソース ファイル\AI\Goal\NPCGoal</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\KnockDown_Enemy_Goal.cpp">
+      <Filter>ソース ファイル\AI\Goal\NPCGoal</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\NearAttackEnemy_Goal.cpp">
+      <Filter>ソース ファイル\AI\Goal\NPCGoal</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\WeaponShot_AttackEnemy_Goal.cpp">
+      <Filter>ソース ファイル\AI\Goal\NPCGoal</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\NPC_GoalEvalutor.cpp">
+      <Filter>ソース ファイル\AI\Goal\Evalutor &amp; CostCalculater</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\NPC_GoalCost_Calculater.cpp">
+      <Filter>ソース ファイル\AI\Goal\Evalutor &amp; CostCalculater</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\AvoidanceVessel_Goal.cpp">
+      <Filter>ソース ファイル\AI\Goal\NotPlanningGoal</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\Navigation_System.cpp">
+      <Filter>ソース ファイル\AI\Navigation &amp; FieldInformation</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\PathPlanner.cpp">
+      <Filter>ソース ファイル\AI\Navigation &amp; FieldInformation</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\ParticularGoal_lManager.cpp">
+      <Filter>ソース ファイル\AI\Brain</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\B_RollingAttack.cpp">
+      <Filter>ソース ファイル\AI\Behavior\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PowerUpIcon.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GameSound\GameSound.cpp">
+      <Filter>ソース ファイル\SYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ScoreTag.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="source\NewsTelop.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="source\NewsTelopUpdater.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="source\NewsTelopWord.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TimeRender.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ShareObjIcon.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SunShine.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneEnd.cpp">
+      <Filter>ソース ファイル\SceneEnd</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneSelect.cpp">
+      <Filter>ソース ファイル\SceneSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="source\map\Crane.cpp">
+      <Filter>ソース ファイル\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="source\map\MapObjectFactory.cpp">
+      <Filter>ソース ファイル\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="source\map\Sky.cpp">
+      <Filter>ソース ファイル\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="source\map\MapObjectSignboard.cpp">
+      <Filter>ソース ファイル\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="source\map\MapObjectMainStage.cpp">
+      <Filter>ソース ファイル\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CharacterEye.cpp">
+      <Filter>ソース ファイル\ControllObj\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FriendMessage.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneCutWater.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="source\map\WayPointObject.cpp">
+      <Filter>ソース ファイル\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="source\JoyPad.cpp">
+      <Filter>ソース ファイル\SYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\NPC_Censor_FriendMessage.cpp">
+      <Filter>ソース ファイル\AI\Censor</Filter>
+    </ClCompile>
+    <ClCompile Include="source\map\Elevator.cpp">
+      <Filter>ソース ファイル\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="source\map\AirShip.cpp">
+      <Filter>ソース ファイル\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="source\map\VendingMachine.cpp">
+      <Filter>ソース ファイル\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SourChargeEffect.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MovieControllobj.cpp">
+      <Filter>ソース ファイル\ControllObj\Movie</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\B_AirBorne.cpp">
+      <Filter>ソース ファイル\AI\Behavior\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\B_ThrowGrenade.cpp">
+      <Filter>ソース ファイル\AI\Behavior\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\NPC_FriendMessage.cpp">
+      <Filter>ソース ファイル\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\NPC_Commander.cpp">
+      <Filter>ソース ファイル\AI\Brain\Commander</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\BlackBoard.cpp">
+      <Filter>ソース ファイル\AI\Brain\BlackBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\Goal_Airborne.cpp">
+      <Filter>ソース ファイル\AI\Goal\NotPlanningGoal</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AI\Goal_FollowFriend.cpp">
+      <Filter>ソース ファイル\AI\Goal\NPCGoal</Filter>
+    </ClCompile>
+    <ClCompile Include="source\screen\Screen_Distortion.cpp">
+      <Filter>ソース ファイル\Render%28Shader%29\screen</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DamageEffect.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ResultUI.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EmptyCan.cpp">
+      <Filter>ソース ファイル\ColaBullet</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IEX\iextreme.h">
+      <Filter>IEX</Filter>
+    </ClInclude>
+    <ClInclude Include="source\進捗状況.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="source\All.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Character.h">
+      <Filter>ソース ファイル\ControllObj\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CharacterMeshManager.h">
+      <Filter>ソース ファイル\ControllObj\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CharacterMoveFunction.h">
+      <Filter>ソース ファイル\ControllObj\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CharacterUtilityFunction.h">
+      <Filter>ソース ファイル\ControllObj\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ControllObject.h">
+      <Filter>ソース ファイル\ControllObj</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ControllObjectFunction.h">
+      <Filter>ソース ファイル\ControllObj</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CODBO_DebugMatch.h">
+      <Filter>ソース ファイル\CODBO</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CODBO.h">
+      <Filter>ソース ファイル\CODBO</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Camera.h">
+      <Filter>ソース ファイル\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="source\LuaScript\LuaManager.h">
+      <Filter>ソース ファイル\LuaScript</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CameraMove.h">
+      <Filter>ソース ファイル\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Controller.h">
+      <Filter>ソース ファイル\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ControllerManager.h">
+      <Filter>ソース ファイル\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GameSystem\GameBase.h">
+      <Filter>ソース ファイル\GameBase</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GameSystem\GameController.h">
+      <Filter>ソース ファイル\GameBase</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GameSystem\GameIDDefine.h">
+      <Filter>ソース ファイル\GameBase</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GameSystem\GameIDManager.h">
+      <Filter>ソース ファイル\GameBase</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GameSystem\GameMessageType.h">
+      <Filter>ソース ファイル\GameBase</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\Scene.h">
+      <Filter>ソース ファイル\SYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sceneMain.h">
+      <Filter>ソース ファイル\SYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\System.h">
+      <Filter>ソース ファイル\SYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MeshManager.h">
+      <Filter>ソース ファイル\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="source\TestCharacterModel.h">
+      <Filter>ソース ファイル\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ppSpatialPartitionning.h">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ScreenSeparation.h">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="source\StateMachine\StateTemplate.h">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CharacterBrain.h">
+      <Filter>ソース ファイル\ControllObj\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CharacterBrainRealPlayer.h">
+      <Filter>ソース ファイル\ControllObj\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CharacterMoveState.h">
+      <Filter>ソース ファイル\ControllObj\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ControllObjectManager.h">
+      <Filter>ソース ファイル\ControllObj</Filter>
+    </ClInclude>
+    <ClInclude Include="source\LuaLoadParam.h">
+      <Filter>ソース ファイル\LuaScript</Filter>
+    </ClInclude>
+    <ClInclude Include="source\TextLoader\itTextLoader.h">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CharacterMoveStateMessageFunc.h">
+      <Filter>ソース ファイル\ControllObj\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="source\itDebugStringManager.h">
+      <Filter>ソース ファイル\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="source\LuaKeyDefine.h">
+      <Filter>ソース ファイル\LuaScript</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Collision.h">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ColaBullet.h">
+      <Filter>ソース ファイル\ColaBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ColaWater.h">
+      <Filter>ソース ファイル\ColaBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\Framework.h">
+      <Filter>ソース ファイル\SYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="source\BillBoard.h">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="source\textLoader.h">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ParentAndChild.h">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CharacterModel.h">
+      <Filter>ソース ファイル\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="source\DebugParticle.h">
+      <Filter>ソース ファイル\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="source\TriggerManager.h">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ItDebug.h">
+      <Filter>ソース ファイル\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="source\DamageHit.h">
+      <Filter>ソース ファイル\ColaBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="source\PartsMotionMesh.h">
+      <Filter>ソース ファイル\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CharacterWepon.h">
+      <Filter>ソース ファイル\ControllObj\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AimPoint.h">
+      <Filter>ソース ファイル\ColaBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ManagerBase.h">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ColorUtility.h">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ItDebugTime.h">
+      <Filter>ソース ファイル\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="source\UserInterfaceBase.h">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="source\RenderLine.h">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GameMatchInfomation.h">
+      <Filter>ソース ファイル\CODBO</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CODBOForwardDecl.h">
+      <Filter>ソース ファイル\CODBO</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CODBO_FlagMatch.h">
+      <Filter>ソース ファイル\CODBO</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Effect\EffectBase.h">
+      <Filter>ソース ファイル\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\NPC_Predicate.h">
+      <Filter>ソース ファイル\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\NPC_PathSearchAlg.h">
+      <Filter>ソース ファイル\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\NPC_MessageDispatcher.h">
+      <Filter>ソース ファイル\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\NPC_Enum.h">
+      <Filter>ソース ファイル\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="source\EnumCP11.h">
+      <Filter>ソース ファイル\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\Fuzzy_h.h">
+      <Filter>ソース ファイル\AI\Fuzzy</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\FuzzyModule.h">
+      <Filter>ソース ファイル\AI\Fuzzy</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\FuzzyRule.h">
+      <Filter>ソース ファイル\AI\Fuzzy</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\FuzzySet.h">
+      <Filter>ソース ファイル\AI\Fuzzy</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\FuzzyVariable.h">
+      <Filter>ソース ファイル\AI\Fuzzy</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\FazzyOperator.h">
+      <Filter>ソース ファイル\AI\Fuzzy</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\Field_Division.h">
+      <Filter>ソース ファイル\AI\Navigation &amp; FieldInformation</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\CP11_Rand.h">
+      <Filter>ソース ファイル\AI\Goal</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\Goal.h">
+      <Filter>ソース ファイル\AI\Goal</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\NPC_Censor.h">
+      <Filter>ソース ファイル\AI\Censor</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\NPC_WorkingMemory.h">
+      <Filter>ソース ファイル\AI\Symbol_&amp;_Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\NPC_Symbol.h">
+      <Filter>ソース ファイル\AI\Symbol_&amp;_Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\NPC_Record.h">
+      <Filter>ソース ファイル\AI\Symbol_&amp;_Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\NPC_Brain.h">
+      <Filter>ソース ファイル\AI\Brain</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\NPC_Goal.h">
+      <Filter>ソース ファイル\AI\Goal</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\SoundMessage.h">
+      <Filter>ソース ファイル\Sound%28Env%29</Filter>
+    </ClInclude>
+    <ClInclude Include="source\WaterPool.h">
+      <Filter>ソース ファイル\ColaBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="source\map\ObjectLoader.h">
+      <Filter>ソース ファイル\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="source\map\MyFunction.h">
+      <Filter>ソース ファイル\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="source\PolygonEffect\EffectClass.h">
+      <Filter>ソース ファイル\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\ChargeWeapon_Goal.h">
+      <Filter>ソース ファイル\AI\Goal\NPCGoal</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\CorrespondenceDenger_Goal.h">
+      <Filter>ソース ファイル\AI\Goal\NPCGoal</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\Hidden_Goal.h">
+      <Filter>ソース ファイル\AI\Goal\NPCGoal</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\MedicalFriend_Goal.h">
+      <Filter>ソース ファイル\AI\Goal\NPCGoal</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\Scouting_Goal.h">
+      <Filter>ソース ファイル\AI\Goal\NPCGoal</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\MemoryFunction.h">
+      <Filter>ソース ファイル\AI\Symbol_&amp;_Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="source\InfomationStr.h">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="source\DataManager.h">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="source\console\MyConsole.h">
+      <Filter>ソース ファイル\Utility\console</Filter>
+    </ClInclude>
+    <ClInclude Include="source\console\WindowClass.h">
+      <Filter>ソース ファイル\Utility\console</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\Environmental_Sound.h">
+      <Filter>ソース ファイル\Sound%28Env%29</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CharacterModelResource.h">
+      <Filter>ソース ファイル\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="source\BlendAnimationMesh.h">
+      <Filter>ソース ファイル\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="source\stencil\StencilClip.h">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GlobalTexture.h">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="source\map\ShareRatioObjectAim.h">
+      <Filter>ソース ファイル\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="source\map\ShareRatioObject.h">
+      <Filter>ソース ファイル\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="source\map\MapObject.h">
+      <Filter>ソース ファイル\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="source\PolygonEffect\AnimationEffect.h">
+      <Filter>ソース ファイル\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="source\EffectResource.h">
+      <Filter>ソース ファイル\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="source\TextureManager.h">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="source\StartCountDown.h">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\Goal_GetAdvertisementPoint.h">
+      <Filter>ソース ファイル\AI\Goal\NPCGoal</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\Template_Graph.h">
+      <Filter>ソース ファイル\AI\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\Tfunctions.h">
+      <Filter>ソース ファイル\AI\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="source\map\MapObjectParam.h">
+      <Filter>ソース ファイル\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CODBO_ShareMatch.h">
+      <Filter>ソース ファイル\CODBO</Filter>
+    </ClInclude>
+    <ClInclude Include="source\map\Truck.h">
+      <Filter>ソース ファイル\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SingletonTemplate.h">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\Goal_Wander_Field.h">
+      <Filter>ソース ファイル\AI\Goal\NPCGoal</Filter>
+    </ClInclude>
+    <ClInclude Include="source\screen\Radiation_Blur.h">
+      <Filter>ソース ファイル\Render%28Shader%29</Filter>
+    </ClInclude>
+    <ClInclude Include="source\screen\RenderInterFace.h">
+      <Filter>ソース ファイル\Render%28Shader%29\RenderingInterFace</Filter>
+    </ClInclude>
+    <ClInclude Include="source\screen\ScreenCreater.h">
+      <Filter>ソース ファイル\Render%28Shader%29\screen</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ShadowMap.h">
+      <Filter>ソース ファイル\Render%28Shader%29\ShaderClass</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\Behavior_ProcessFunction.h">
+      <Filter>ソース ファイル\AI\Behavior</Filter>
+    </ClInclude>
+    <ClInclude Include="source\TeamViewData.h">
+      <Filter>ソース ファイル\CODBO</Filter>
+    </ClInclude>
+    <ClInclude Include="source\RespornControllobj.h">
+      <Filter>ソース ファイル\ControllObj\Resporn</Filter>
+    </ClInclude>
+    <ClInclude Include="source\StartControllobj.h">
+      <Filter>ソース ファイル\ControllObj\Start</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\npc_behavior.h">
+      <Filter>ソース ファイル\AI\Behavior\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\Accessor_Brain.h">
+      <Filter>ソース ファイル\AI\Brain</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\NPC_Evalutor.h">
+      <Filter>ソース ファイル\AI\Brain</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\NPC_Factory.h">
+      <Filter>ソース ファイル\AI\Brain</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\NPC_Aim.h">
+      <Filter>ソース ファイル\AI\Behavior\Aim</Filter>
+    </ClInclude>
+    <ClInclude Include="source\YenRender.h">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ScoreCalcManager.h">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CharacterUI.h">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ColaGameGauge.h">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ColaGauge.h">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ScreenPositionEffect.h">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CharacterAim.h">
+      <Filter>ソース ファイル\ControllObj\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Grenade.h">
+      <Filter>ソース ファイル\ColaBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\GrenadeAttack_Goal.h">
+      <Filter>ソース ファイル\AI\Goal\NPCGoal</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\KnockDown_Enemy_Goal.h">
+      <Filter>ソース ファイル\AI\Goal\NPCGoal</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\NearAttackEnemy_Goal.h">
+      <Filter>ソース ファイル\AI\Goal\NPCGoal</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\WeaponShot_AttackEnemy_Goal.h">
+      <Filter>ソース ファイル\AI\Goal\NPCGoal</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\NPC_GoalEvalutor.h">
+      <Filter>ソース ファイル\AI\Goal\Evalutor &amp; CostCalculater</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\AvoidanceVessel_Goal.h">
+      <Filter>ソース ファイル\AI\Goal\NotPlanningGoal</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\Navigation_System.h">
+      <Filter>ソース ファイル\AI\Navigation &amp; FieldInformation</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\PathPlanner.h">
+      <Filter>ソース ファイル\AI\Navigation &amp; FieldInformation</Filter>
+    </ClInclude>
+    <ClInclude Include="source\PowerUpIcon.h">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GameSound\GameSound.h">
+      <Filter>ソース ファイル\SYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ScoreTag.h">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="source\NewsTelop.h">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="source\NewsTelopUpdater.h">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="source\NewsTelopWord.h">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="source\TimeRender.h">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ShareObjIcon.h">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SunShine.h">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CODPlaySound.h">
+      <Filter>ソース ファイル\SYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SceneEnd.h">
+      <Filter>ソース ファイル\SceneEnd</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SceneSelect.h">
+      <Filter>ソース ファイル\SceneSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="source\map\Crane.h">
+      <Filter>ソース ファイル\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="source\map\MapObjectFactory.h">
+      <Filter>ソース ファイル\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="source\map\Sky.h">
+      <Filter>ソース ファイル\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="source\map\MapObjectSignboard.h">
+      <Filter>ソース ファイル\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="source\map\MapObjectMainStage.h">
+      <Filter>ソース ファイル\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CharacterEye.h">
+      <Filter>ソース ファイル\ControllObj\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="source\FriendMessage.h">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SceneCutWater.h">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="source\map\WayPointObject.h">
+      <Filter>ソース ファイル\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="source\JoyPad.h">
+      <Filter>ソース ファイル\SYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="source\map\SwingObject.h">
+      <Filter>ソース ファイル\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="source\map\Elevator.h">
+      <Filter>ソース ファイル\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="source\map\AirShip.h">
+      <Filter>ソース ファイル\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="source\map\VendingMachine.h">
+      <Filter>ソース ファイル\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SourChargeEffect.h">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MovieControllobj.h">
+      <Filter>ソース ファイル\ControllObj\Movie</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\NPC_FriendMessage.h">
+      <Filter>ソース ファイル\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\NPC_Commander.h">
+      <Filter>ソース ファイル\AI\Brain\Commander</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\BlackBoard.h">
+      <Filter>ソース ファイル\AI\Brain\BlackBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\Goal_Airborne.h">
+      <Filter>ソース ファイル\AI\Goal\NotPlanningGoal</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AI\Goal_FollowFriend.h">
+      <Filter>ソース ファイル\AI\Goal\NPCGoal</Filter>
+    </ClInclude>
+    <ClInclude Include="source\screen\Screen_Distortion.h">
+      <Filter>ソース ファイル\Render%28Shader%29\screen</Filter>
+    </ClInclude>
+    <ClInclude Include="source\DamageEffect.h">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ResultUI.h">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="source\EmptyCan.h">
+      <Filter>ソース ファイル\ColaBullet</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\Shader\2D.fx">
+      <Filter>シェーダー</Filter>
+    </None>
+    <None Include="DATA\Shader\ShadowMap.inc">
+      <Filter>シェーダー</Filter>
+    </None>
+    <None Include="DATA\Shader\Sampler.inc">
+      <Filter>シェーダー</Filter>
+    </None>
+    <None Include="DATA\Shader\InputFormat.inc">
+      <Filter>シェーダー</Filter>
+    </None>
+    <None Include="DATA\Shader\Function.inc">
+      <Filter>シェーダー</Filter>
+    </None>
+    <None Include="DATA\Shader\Blur.inc">
+      <Filter>シェーダー</Filter>
+    </None>
+    <None Include="DATA\Shader\Variable.inc">
+      <Filter>シェーダー</Filter>
+    </None>
+    <None Include="DATA\Shader\technic.inc">
+      <Filter>シェーダー</Filter>
+    </None>
+    <None Include="DATA\Shader\ColaGauge.inc">
+      <Filter>シェーダー</Filter>
+    </None>
+    <None Include="DATA\stage_mesh\test2.cod">
+      <Filter>ソース ファイル\Map</Filter>
+    </None>
+    <None Include="DATA\Shader\Radiation_Blur.inc">
+      <Filter>シェーダー</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="DATA\Shader\3DEx.fx">
+      <Filter>シェーダー</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

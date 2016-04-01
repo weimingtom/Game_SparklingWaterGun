@@ -1,0 +1,13 @@
+stage\\Stage.IMO
+sample\\pointer_orange.imo
+add_data\\test.IMO
+add_data\\circle.IMO
+add_data\star_box.IMO
+add_data\team1_poster.IMO
+add_data\team2_poster.IMO
+add_data\sky.IMO
+add_data\objects\jihanki_genki.IMO
+add_data\truck\truckRed.IMO
+add_data\objects\jihanki_lemon.IMO
+add_data\Crane_no_bone.IMO
+add_data\AirShip.IMO

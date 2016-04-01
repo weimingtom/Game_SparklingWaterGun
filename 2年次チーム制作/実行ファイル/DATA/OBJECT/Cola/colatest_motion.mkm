@@ -1,0 +1,47 @@
+Mikoto Motion Ver 2
+Motion {
+	name = "motion"
+	endframe = 60
+	loop = 0
+	Vector {
+		name = "j_mat203"
+		class = "Locate"
+		member = "pos"
+		curve = "spline"
+		0 (-2.429100 30.297396 0.000000)
+		60 (-2.429100 30.297396 0.000000)
+	}
+	Quaternion {
+		name = "mat203"
+		class = "Bone"
+		member = "rot"
+		curve = "spline"
+		0 (0.680944 0.190567 -0.190567 0.680944)
+		60 (0.680944 0.190567 -0.190567 0.680944)
+	}
+	Quaternion {
+		name = "mat202"
+		class = "Bone"
+		member = "rot"
+		curve = "spline"
+		0 (-0.000000 0.000000 -0.000000 1.000000)
+		60 (-0.000000 0.000000 -0.000000 1.000000)
+	}
+	Quaternion {
+		name = "mat201"
+		class = "Bone"
+		member = "rot"
+		curve = "spline"
+		0 (0.000000 0.000000 0.000000 1.000000)
+		60 (0.000000 0.000000 0.000000 1.000000)
+	}
+	Quaternion {
+		name = "mat2"
+		class = "Bone"
+		member = "rot"
+		curve = "spline"
+		0 (-0.033733 0.046675 -0.079845 0.995142)
+		60 (-0.033733 0.046675 -0.079845 0.995142)
+	}
+}
+Eof

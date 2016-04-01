@@ -1,0 +1,10 @@
+{
+FOOTSOUND
+0
+20
+100.0f
+GUNSOUND
+1
+180
+900.0f
+}

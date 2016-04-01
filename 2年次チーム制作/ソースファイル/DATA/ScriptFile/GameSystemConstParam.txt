@@ -1,0 +1,11 @@
+--ゲームシステムの固定パラメーターファイル
+
+CODBO_GAME_PARAMETERS=
+{
+death_score_rate=-80;
+kill_score_rate=120;
+share_score=150;
+share_change_score=150;
+share_score_add_frame=180;
+
+};

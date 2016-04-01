@@ -1,0 +1,516 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C9433152-1C2D-4F56-9C7A-1FBCA2E5D65F}</ProjectGuid>
+    <RootNamespace>IEX2009</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectName>ColaOfDissension_BloodyVsOcean</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(DXSDK_DIR)include;source\LuaScript\include;source\Effect\Effekser\include;source\AI;source\map;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(DXSDK_DIR)lib/x86;source\LuaScript;source\Effect\Effekser;$(LibraryPath)</LibraryPath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(DXSDK_DIR)include;source\LuaScript\include;source\Effect\Effekser\include;source\AI;source\map;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(DXSDK_DIR)lib/x86;source\LuaScript;source\Effect\Effekser;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <EmbedManifest>false</EmbedManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>./IEX/;./SOURCE/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <IgnoreSpecificDefaultLibraries>libcmt.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>./IEX/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="source\AimPoint.cpp" />
+    <ClCompile Include="source\AI\Accesor_Brain.cpp" />
+    <ClCompile Include="source\AI\AvoidanceVessel_Goal.cpp" />
+    <ClCompile Include="source\AI\Bahavior_MovePoint.cpp" />
+    <ClCompile Include="source\AI\Beahvior_Manager.cpp" />
+    <ClCompile Include="source\AI\Behavior_MoveEdge.cpp" />
+    <ClCompile Include="source\AI\Behavior_ProcessFunction.cpp" />
+    <ClCompile Include="source\AI\Behavior_UseObject.cpp" />
+    <ClCompile Include="source\AI\BlackBoard.cpp" />
+    <ClCompile Include="source\AI\B_AirBorne.cpp" />
+    <ClCompile Include="source\AI\B_ChargeWeapon.cpp" />
+    <ClCompile Include="source\AI\B_Lookback.cpp" />
+    <ClCompile Include="source\AI\B_RollingAttack.cpp" />
+    <ClCompile Include="source\AI\B_ShotWeapon.cpp" />
+    <ClCompile Include="source\AI\B_ThrowGrenade.cpp" />
+    <ClCompile Include="source\AI\ChargeWeapon_Goal.cpp" />
+    <ClCompile Include="source\AI\CorrespondenceDenger_Goal.cpp" />
+    <ClCompile Include="source\AI\CP11_Rand.cpp" />
+    <ClCompile Include="source\AI\Environmental_Sound.cpp" />
+    <ClCompile Include="source\AI\FuzzyModule.cpp" />
+    <ClCompile Include="source\AI\FuzzyOperator.cpp" />
+    <ClCompile Include="source\AI\FuzzyRule.cpp" />
+    <ClCompile Include="source\AI\FuzzySet.cpp" />
+    <ClCompile Include="source\AI\FuzzyVariable.cpp" />
+    <ClCompile Include="source\AI\Goal.cpp" />
+    <ClCompile Include="source\AI\GoalResult.cpp" />
+    <ClCompile Include="source\AI\Goal_Airborne.cpp" />
+    <ClCompile Include="source\AI\Goal_FollowFriend.cpp" />
+    <ClCompile Include="source\AI\Goal_GetAdvertisementPoint.cpp" />
+    <ClCompile Include="source\AI\Goal_Think.cpp" />
+    <ClCompile Include="source\AI\Goal_WanderField.cpp" />
+    <ClCompile Include="source\AI\GrenadeAttack_Goal.cpp" />
+    <ClCompile Include="source\AI\Hidden_Goal.cpp" />
+    <ClCompile Include="source\AI\KnockDown_Enemy_Goal.cpp" />
+    <ClCompile Include="source\AI\MedicalFriend_Goal.cpp" />
+    <ClCompile Include="source\AI\MemoryFuntion.cpp" />
+    <ClCompile Include="source\AI\Navigation_System.cpp" />
+    <ClCompile Include="source\AI\NearAttackEnemy_Goal.cpp" />
+    <ClCompile Include="source\AI\NPC_ActionPlanner.cpp" />
+    <ClCompile Include="source\AI\NPC_Aim.cpp" />
+    <ClCompile Include="source\AI\NPC_Brain.cpp" />
+    <ClCompile Include="source\AI\NPC_Censor_AttackME.cpp" />
+    <ClCompile Include="source\AI\NPC_Censor_FriendMessage.cpp" />
+    <ClCompile Include="source\AI\NPC_Censor_Hearing.cpp" />
+    <ClCompile Include="source\AI\NPC_Censor_Sight.cpp" />
+    <ClCompile Include="source\AI\NPC_CharacterParam.cpp" />
+    <ClCompile Include="source\AI\NPC_Commander.cpp" />
+    <ClCompile Include="source\AI\NPC_Evalutor.cpp" />
+    <ClCompile Include="source\AI\NPC_Factory.cpp" />
+    <ClCompile Include="source\AI\NPC_FieldDebugger.cpp" />
+    <ClCompile Include="source\AI\NPC_FriendMessage.cpp" />
+    <ClCompile Include="source\AI\NPC_FuzzyTool.cpp" />
+    <ClCompile Include="source\AI\NPC_GoalCost_Calculater.cpp" />
+    <ClCompile Include="source\AI\NPC_GoalEvalutor.cpp" />
+    <ClCompile Include="source\AI\NPC_GoalPlanningKey.cpp" />
+    <ClCompile Include="source\AI\NPC_MessageDispatcher.cpp" />
+    <ClCompile Include="source\AI\NPC_PathSearchAlg.cpp" />
+    <ClCompile Include="source\AI\NPC_Predicate.cpp" />
+    <ClCompile Include="source\AI\NPC_Record.cpp" />
+    <ClCompile Include="source\AI\NPC_Symbol.cpp" />
+    <ClCompile Include="source\AI\NPC_WayPointInformation.cpp" />
+    <ClCompile Include="source\AI\NPC_WorkingMemory.cpp" />
+    <ClCompile Include="source\AI\ParticularGoal_lManager.cpp" />
+    <ClCompile Include="source\AI\PathPlanner.cpp" />
+    <ClCompile Include="source\AI\Scouting_Goal.cpp" />
+    <ClCompile Include="source\AI\Temporary_PlanningMemory.cpp" />
+    <ClCompile Include="source\AI\WeaponShot_AttackEnemy_Goal.cpp" />
+    <ClCompile Include="source\BillBoard.cpp" />
+    <ClCompile Include="source\BlendAnimationMesh.cpp" />
+    <ClCompile Include="source\Camera.cpp" />
+    <ClCompile Include="source\CameraMove.cpp" />
+    <ClCompile Include="source\Character.cpp" />
+    <ClCompile Include="source\CharacterAim.cpp" />
+    <ClCompile Include="source\CharacterBrainRealPlayer.cpp" />
+    <ClCompile Include="source\CharacterEye.cpp" />
+    <ClCompile Include="source\CharacterModel.cpp" />
+    <ClCompile Include="source\CharacterModelResource.cpp" />
+    <ClCompile Include="source\CharacterMoveFunction.cpp" />
+    <ClCompile Include="source\CharacterMoveState.cpp" />
+    <ClCompile Include="source\CharacterMoveStateMessageFunc.cpp" />
+    <ClCompile Include="source\CharacterUI.cpp" />
+    <ClCompile Include="source\CharacterUtilityFunction.cpp" />
+    <ClCompile Include="source\CharacterWepon.cpp" />
+    <ClCompile Include="source\CODBO_FlagMatch.cpp" />
+    <ClCompile Include="source\CODBO_ShareMatch.cpp" />
+    <ClCompile Include="source\ColaBullet.cpp" />
+    <ClCompile Include="source\ColaGameGauge.cpp" />
+    <ClCompile Include="source\ColaGauge.cpp" />
+    <ClCompile Include="source\ColaWater.cpp" />
+    <ClCompile Include="source\Collision.cpp" />
+    <ClCompile Include="source\ColorUtility.cpp" />
+    <ClCompile Include="source\console\MyConsole.cpp" />
+    <ClCompile Include="source\console\WindowClass.cpp" />
+    <ClCompile Include="source\ControllerManager.cpp" />
+    <ClCompile Include="source\ControllObjectManager.cpp" />
+    <ClCompile Include="source\CODBO.cpp" />
+    <ClCompile Include="source\CODBO_DebugMatch.cpp" />
+    <ClCompile Include="source\ConrollObject.cpp" />
+    <ClCompile Include="source\ControllObjectFunction.cpp" />
+    <ClCompile Include="source\DamageEffect.cpp" />
+    <ClCompile Include="source\DamageHit.cpp" />
+    <ClCompile Include="source\DebugParticle.cpp" />
+    <ClCompile Include="source\EffectResource.cpp" />
+    <ClCompile Include="source\Effect\EffectBase.cpp" />
+    <ClCompile Include="source\EmptyCan.cpp" />
+    <ClCompile Include="source\FriendMessage.cpp" />
+    <ClCompile Include="source\GameMatchInfomation.cpp" />
+    <ClCompile Include="source\GameSound\GameSound.cpp" />
+    <ClCompile Include="source\GameSystem\GameBase.cpp" />
+    <ClCompile Include="source\GameSystem\GameController.cpp" />
+    <ClCompile Include="source\GameSystem\GameIDManager.cpp" />
+    <ClCompile Include="source\Grenade.cpp" />
+    <ClCompile Include="source\itDebugStringManager.cpp" />
+    <ClCompile Include="source\JoyPad.cpp" />
+    <ClCompile Include="source\LuaKeyDefine.cpp" />
+    <ClCompile Include="source\LuaLoadParam.cpp" />
+    <ClCompile Include="source\LuaScript\LuaManager.cpp" />
+    <ClCompile Include="source\map\AirShip.cpp" />
+    <ClCompile Include="source\map\Crane.cpp" />
+    <ClCompile Include="source\map\Elevator.cpp" />
+    <ClCompile Include="source\map\MapObject.cpp" />
+    <ClCompile Include="source\map\MapObjectFactory.cpp" />
+    <ClCompile Include="source\map\MapObjectMainStage.cpp" />
+    <ClCompile Include="source\map\MapObjectSignboard.cpp" />
+    <ClCompile Include="source\map\ObjectLoader.cpp" />
+    <ClCompile Include="source\map\ShareRatioObject.cpp" />
+    <ClCompile Include="source\map\ShareRatioObjectAim.cpp" />
+    <ClCompile Include="source\map\Sky.cpp" />
+    <ClCompile Include="source\map\VendingMachine.cpp" />
+    <ClCompile Include="source\map\Truck.cpp" />
+    <ClCompile Include="source\map\WayPointObject.cpp" />
+    <ClCompile Include="source\MeshManager.cpp" />
+    <ClCompile Include="source\MovieControllobj.cpp" />
+    <ClCompile Include="source\NewsTelop.cpp" />
+    <ClCompile Include="source\NewsTelopUpdater.cpp" />
+    <ClCompile Include="source\NewsTelopWord.cpp" />
+    <ClCompile Include="source\ParentAndChild.cpp" />
+    <ClCompile Include="source\PartsMotionMesh.cpp" />
+    <ClCompile Include="source\PolygonEffect\AnimationEffect.cpp" />
+    <ClCompile Include="source\PolygonEffect\EffectClass.cpp" />
+    <ClCompile Include="source\PowerUpIcon.cpp" />
+    <ClCompile Include="source\RenderLine.cpp" />
+    <ClCompile Include="source\RespornControllobj.cpp" />
+    <ClCompile Include="source\ResultUI.cpp" />
+    <ClCompile Include="source\SceneCutWater.cpp" />
+    <ClCompile Include="source\SceneEnd.cpp" />
+    <ClCompile Include="source\sceneMain.cpp" />
+    <ClCompile Include="source\SceneSelect.cpp" />
+    <ClCompile Include="source\ScoreCalcManager.cpp" />
+    <ClCompile Include="source\ScoreTag.cpp" />
+    <ClCompile Include="source\ScreenIcon.cpp" />
+    <ClCompile Include="source\ScreenPositionEffect.cpp" />
+    <ClCompile Include="source\ScreenSeparation.cpp" />
+    <ClCompile Include="source\screen\Radiation_Blur.cpp" />
+    <ClCompile Include="source\screen\R_InterFace_Character.cpp" />
+    <ClCompile Include="source\screen\R_InterFace_MainStage.cpp" />
+    <ClCompile Include="source\screen\R_InterFace_Poster.cpp" />
+    <ClCompile Include="source\screen\R_InterFace_RespawnObject.cpp" />
+    <ClCompile Include="source\screen\R_InterFace_Truck.cpp" />
+    <ClCompile Include="source\screen\Screen_Creater.cpp" />
+    <ClCompile Include="source\screen\Screen_Distortion.cpp" />
+    <ClCompile Include="source\ShadowMap.cpp" />
+    <ClCompile Include="source\ShareIcon.cpp" />
+    <ClCompile Include="source\ShareObjIcon.cpp" />
+    <ClCompile Include="source\SourChargeEffect.cpp" />
+    <ClCompile Include="source\StartControllobj.cpp" />
+    <ClCompile Include="source\StartCountDown.cpp" />
+    <ClCompile Include="source\SunShine.cpp" />
+    <ClCompile Include="source\TeamViewData.cpp" />
+    <ClCompile Include="source\TextureManager.cpp" />
+    <ClCompile Include="source\stencil\StencilClip.cpp" />
+    <ClCompile Include="source\system\Framework.cpp" />
+    <ClCompile Include="source\system\System.cpp" />
+    <ClCompile Include="source\system\WinMain.cpp" />
+    <ClCompile Include="IEX\IEX_2DObject.cpp" />
+    <ClCompile Include="IEX\IEX_3DObject.cpp" />
+    <ClCompile Include="IEX\IEX_Audio.cpp" />
+    <ClCompile Include="IEX\IEX_Direct3D.cpp" />
+    <ClCompile Include="IEX\IEX_Input.cpp" />
+    <ClCompile Include="IEX\IEX_Light.cpp" />
+    <ClCompile Include="IEX\IEX_Math.cpp" />
+    <ClCompile Include="IEX\IEX_Mesh.cpp" />
+    <ClCompile Include="IEX\IEX_Particle.cpp" />
+    <ClCompile Include="IEX\IEX_Polygon.cpp" />
+    <ClCompile Include="IEX\IEX_RenderState.cpp" />
+    <ClCompile Include="IEX\IEX_Shader.cpp" />
+    <ClCompile Include="IEX\IEX_SkinMesh.cpp" />
+    <ClCompile Include="IEX\IEX_System.cpp" />
+    <ClCompile Include="IEX\IEX_Texture.cpp" />
+    <ClCompile Include="IEX\IEX_View.cpp" />
+    <ClCompile Include="source\TestCharacterModel.cpp" />
+    <ClCompile Include="source\textLoader.cpp" />
+    <ClCompile Include="source\TextLoader\itTextLoader.cpp" />
+    <ClCompile Include="source\TimeRender.cpp" />
+    <ClCompile Include="source\TriggerManager.cpp" />
+    <ClCompile Include="source\WaterPool.cpp" />
+    <ClCompile Include="source\YenRender.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\AimPoint.h" />
+    <ClInclude Include="source\AI\Accessor_Brain.h" />
+    <ClInclude Include="source\AI\AvoidanceVessel_Goal.h" />
+    <ClInclude Include="source\AI\Behavior_ProcessFunction.h" />
+    <ClInclude Include="source\AI\BlackBoard.h" />
+    <ClInclude Include="source\AI\ChargeWeapon_Goal.h" />
+    <ClInclude Include="source\AI\CorrespondenceDenger_Goal.h" />
+    <ClInclude Include="source\AI\CP11_Rand.h" />
+    <ClInclude Include="source\AI\Environmental_Sound.h" />
+    <ClInclude Include="source\AI\FazzyOperator.h" />
+    <ClInclude Include="source\AI\Field_Division.h" />
+    <ClInclude Include="source\AI\FuzzyModule.h" />
+    <ClInclude Include="source\AI\FuzzyRule.h" />
+    <ClInclude Include="source\AI\FuzzySet.h" />
+    <ClInclude Include="source\AI\FuzzyVariable.h" />
+    <ClInclude Include="source\AI\Fuzzy_h.h" />
+    <ClInclude Include="source\AI\Goal.h" />
+    <ClInclude Include="source\AI\Goal_Airborne.h" />
+    <ClInclude Include="source\AI\Goal_FollowFriend.h" />
+    <ClInclude Include="source\AI\Goal_GetAdvertisementPoint.h" />
+    <ClInclude Include="source\AI\Goal_Wander_Field.h" />
+    <ClInclude Include="source\AI\GrenadeAttack_Goal.h" />
+    <ClInclude Include="source\AI\Hidden_Goal.h" />
+    <ClInclude Include="source\AI\KnockDown_Enemy_Goal.h" />
+    <ClInclude Include="source\AI\MedicalFriend_Goal.h" />
+    <ClInclude Include="source\AI\MemoryFunction.h" />
+    <ClInclude Include="source\AI\Navigation_System.h" />
+    <ClInclude Include="source\AI\NearAttackEnemy_Goal.h" />
+    <ClInclude Include="source\AI\NPC_Aim.h" />
+    <ClInclude Include="source\AI\npc_behavior.h" />
+    <ClInclude Include="source\AI\NPC_Brain.h" />
+    <ClInclude Include="source\AI\NPC_Censor.h" />
+    <ClInclude Include="source\AI\NPC_Commander.h" />
+    <ClInclude Include="source\AI\NPC_Enum.h" />
+    <ClInclude Include="source\AI\NPC_Evalutor.h" />
+    <ClInclude Include="source\AI\NPC_Factory.h" />
+    <ClInclude Include="source\AI\NPC_FriendMessage.h" />
+    <ClInclude Include="source\AI\NPC_Goal.h" />
+    <ClInclude Include="source\AI\NPC_GoalEvalutor.h" />
+    <ClInclude Include="source\AI\NPC_MessageDispatcher.h" />
+    <ClInclude Include="source\AI\NPC_PathSearchAlg.h" />
+    <ClInclude Include="source\AI\NPC_Predicate.h" />
+    <ClInclude Include="source\AI\NPC_Record.h" />
+    <ClInclude Include="source\AI\NPC_Symbol.h" />
+    <ClInclude Include="source\AI\NPC_WorkingMemory.h" />
+    <ClInclude Include="source\AI\PathPlanner.h" />
+    <ClInclude Include="source\AI\Scouting_Goal.h" />
+    <ClInclude Include="source\AI\SoundMessage.h" />
+    <ClInclude Include="source\AI\Template_Graph.h" />
+    <ClInclude Include="source\AI\Tfunctions.h" />
+    <ClInclude Include="source\AI\WeaponShot_AttackEnemy_Goal.h" />
+    <ClInclude Include="source\All.h" />
+    <ClInclude Include="source\BillBoard.h" />
+    <ClInclude Include="source\BlendAnimationMesh.h" />
+    <ClInclude Include="source\Camera.h" />
+    <ClInclude Include="source\CameraMove.h" />
+    <ClInclude Include="source\Character.h" />
+    <ClInclude Include="source\CharacterAim.h" />
+    <ClInclude Include="source\CharacterBrain.h" />
+    <ClInclude Include="source\CharacterBrainRealPlayer.h" />
+    <ClInclude Include="source\CharacterEye.h" />
+    <ClInclude Include="source\CharacterMeshManager.h" />
+    <ClInclude Include="source\CharacterModel.h" />
+    <ClInclude Include="source\CharacterModelResource.h" />
+    <ClInclude Include="source\CharacterMoveState.h" />
+    <ClInclude Include="source\CharacterMoveStateMessageFunc.h" />
+    <ClInclude Include="source\CharacterUI.h" />
+    <ClInclude Include="source\CharacterUtilityFunction.h" />
+    <ClInclude Include="source\CharacterWepon.h" />
+    <ClInclude Include="source\CODBOForwardDecl.h" />
+    <ClInclude Include="source\CODBO_FlagMatch.h" />
+    <ClInclude Include="source\CODBO_ShareMatch.h" />
+    <ClInclude Include="source\CODPlaySound.h" />
+    <ClInclude Include="source\ColaBullet.h" />
+    <ClInclude Include="source\ColaGameGauge.h" />
+    <ClInclude Include="source\ColaGauge.h" />
+    <ClInclude Include="source\ColaWater.h" />
+    <ClInclude Include="source\Collision.h" />
+    <ClInclude Include="source\ColorUtility.h" />
+    <ClInclude Include="source\console\MyConsole.h" />
+    <ClInclude Include="source\console\WindowClass.h" />
+    <ClInclude Include="source\ControllObjectManager.h" />
+    <ClInclude Include="source\CharacterMoveFunction.h" />
+    <ClInclude Include="source\CODBO.h" />
+    <ClInclude Include="source\CODBO_DebugMatch.h" />
+    <ClInclude Include="source\Controller.h" />
+    <ClInclude Include="source\ControllerManager.h" />
+    <ClInclude Include="source\ControllObject.h" />
+    <ClInclude Include="source\ControllObjectFunction.h" />
+    <ClInclude Include="source\DamageEffect.h" />
+    <ClInclude Include="source\DataManager.h" />
+    <ClInclude Include="source\DebugParticle.h" />
+    <ClInclude Include="source\EffectResource.h" />
+    <ClInclude Include="source\Effect\EffectBase.h" />
+    <ClInclude Include="source\EmptyCan.h" />
+    <ClInclude Include="source\EnumCP11.h" />
+    <ClInclude Include="source\FriendMessage.h" />
+    <ClInclude Include="source\GameMatchInfomation.h" />
+    <ClInclude Include="source\GameSound\GameSound.h" />
+    <ClInclude Include="source\GlobalTexture.h" />
+    <ClInclude Include="source\Grenade.h" />
+    <ClInclude Include="source\InfomationStr.h" />
+    <ClInclude Include="source\ItDebugTime.h" />
+    <ClInclude Include="source\JoyPad.h" />
+    <ClInclude Include="source\ManagerBase.h" />
+    <ClInclude Include="source\map\AirShip.h" />
+    <ClInclude Include="source\map\Crane.h" />
+    <ClInclude Include="source\map\Elevator.h" />
+    <ClInclude Include="source\map\MapObject.h" />
+    <ClInclude Include="source\map\MapObjectFactory.h" />
+    <ClInclude Include="source\map\MapObjectMainStage.h" />
+    <ClInclude Include="source\map\MapObjectParam.h" />
+    <ClInclude Include="source\map\MapObjectSignboard.h" />
+    <ClInclude Include="source\map\MyFunction.h" />
+    <ClInclude Include="source\map\ObjectLoader.h" />
+    <ClInclude Include="source\map\ShareRatioObject.h" />
+    <ClInclude Include="source\map\ShareRatioObjectAim.h" />
+    <ClInclude Include="source\map\Sky.h" />
+    <ClInclude Include="source\map\SwingObject.h" />
+    <ClInclude Include="source\map\Truck.h" />
+    <ClInclude Include="source\DamageHit.h" />
+    <ClInclude Include="source\map\VendingMachine.h" />
+    <ClInclude Include="source\map\WayPointObject.h" />
+    <ClInclude Include="source\MovieControllobj.h" />
+    <ClInclude Include="source\NewsTelop.h" />
+    <ClInclude Include="source\NewsTelopUpdater.h" />
+    <ClInclude Include="source\NewsTelopWord.h" />
+    <ClInclude Include="source\PartsMotionMesh.h" />
+    <ClInclude Include="source\PolygonEffect\AnimationEffect.h" />
+    <ClInclude Include="source\PolygonEffect\EffectClass.h" />
+    <ClInclude Include="source\PowerUpIcon.h" />
+    <ClInclude Include="source\RenderLine.h" />
+    <ClInclude Include="source\RespornControllobj.h" />
+    <ClInclude Include="source\ResultUI.h" />
+    <ClInclude Include="source\SceneCutWater.h" />
+    <ClInclude Include="source\SceneEnd.h" />
+    <ClInclude Include="source\SceneSelect.h" />
+    <ClInclude Include="source\ScoreCalcManager.h" />
+    <ClInclude Include="source\ScoreTag.h" />
+    <ClInclude Include="source\ScreenPositionEffect.h" />
+    <ClInclude Include="source\screen\Radiation_Blur.h" />
+    <ClInclude Include="source\screen\RenderInterFace.h" />
+    <ClInclude Include="source\screen\ScreenCreater.h" />
+    <ClInclude Include="source\screen\Screen_Distortion.h" />
+    <ClInclude Include="source\ShadowMap.h" />
+    <ClInclude Include="source\ShareObjIcon.h" />
+    <ClInclude Include="source\SingletonTemplate.h" />
+    <ClInclude Include="source\SourChargeEffect.h" />
+    <ClInclude Include="source\StartControllobj.h" />
+    <ClInclude Include="source\StartCountDown.h" />
+    <ClInclude Include="source\stencil\StencilClip.h" />
+    <ClInclude Include="source\SunShine.h" />
+    <ClInclude Include="source\TeamViewData.h" />
+    <ClInclude Include="source\TextureManager.h" />
+    <ClInclude Include="source\TimeRender.h" />
+    <ClInclude Include="source\TriggerManager.h" />
+    <ClInclude Include="source\GameSystem\GameBase.h" />
+    <ClInclude Include="source\GameSystem\GameController.h" />
+    <ClInclude Include="source\GameSystem\GameIDDefine.h" />
+    <ClInclude Include="source\GameSystem\GameIDManager.h" />
+    <ClInclude Include="source\GameSystem\GameMessageType.h" />
+    <ClInclude Include="source\ItDebug.h" />
+    <ClInclude Include="source\itDebugStringManager.h" />
+    <ClInclude Include="source\LuaKeyDefine.h" />
+    <ClInclude Include="source\LuaLoadParam.h" />
+    <ClInclude Include="source\LuaScript\LuaManager.h" />
+    <ClInclude Include="source\MeshManager.h" />
+    <ClInclude Include="source\ParentAndChild.h" />
+    <ClInclude Include="source\ppSpatialPartitionning.h" />
+    <ClInclude Include="source\ScreenSeparation.h" />
+    <ClInclude Include="source\StateMachine\StateTemplate.h" />
+    <ClInclude Include="source\system\Framework.h" />
+    <ClInclude Include="source\system\Scene.h" />
+    <ClInclude Include="source\sceneMain.h" />
+    <ClInclude Include="source\system\System.h" />
+    <ClInclude Include="IEX\iextreme.h" />
+    <ClInclude Include="source\TestCharacterModel.h" />
+    <ClInclude Include="source\textLoader.h" />
+    <ClInclude Include="source\TextLoader\itTextLoader.h" />
+    <ClInclude Include="source\UserInterfaceBase.h" />
+    <ClInclude Include="source\WaterPool.h" />
+    <ClInclude Include="source\YenRender.h" />
+    <ClInclude Include="source\進捗状況.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\Shader\2D.fx" />
+    <CustomBuild Include="DATA\Shader\3DEx.fx">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(Outputs)</Outputs>
+    </CustomBuild>
+    <None Include="DATA\Shader\Blur.inc" />
+    <None Include="DATA\Shader\ColaGauge.inc" />
+    <None Include="DATA\Shader\Function.inc" />
+    <None Include="DATA\Shader\InputFormat.inc" />
+    <None Include="DATA\Shader\Radiation_Blur.inc" />
+    <None Include="DATA\Shader\Sampler.inc" />
+    <None Include="DATA\Shader\ShadowMap.inc" />
+    <None Include="DATA\Shader\technic.inc" />
+    <None Include="DATA\Shader\Variable.inc" />
+    <None Include="DATA\stage_mesh\test2.cod" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

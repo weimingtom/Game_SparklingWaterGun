@@ -1,0 +1,45 @@
+GameMassageManagerで
+
+namespace  sound_type
+{
+	enum sound_enum
+	{
+		gun,
+		foot_sound
+	};
+}
+
+typedef sound_type::sound_enum SOUND_TYPE;
+
+ウィンメインのプロシージャ
+
+#include <io.h>
+#include <fcntl.h>
+
+
+#ifdef CONSOLE
+	case WM_CREATE:
+		AllocConsole();
+		*stdout = *_fdopen(_open_osfhandle((intptr_t)GetStdHandle(STD_OUTPUT_HANDLE), _O_TEXT), "w");
+		setvbuf(stdout, 0, _IONBF, 0);
+		break;
+#endif
+
+
+
+ALL.h
+
+#pragma warning(disable : 4482)	enum関連のやつ
+#pragma warning(disable : 4150)　テンプレート関連のWarning削除　	
+
+//AI_system
+#include	"Console.h"
+
+#include	"NPC_WorkingMemory.h"
+#include	"NPC_Symbol.h"
+#include	"NPC_Behavior.h"
+#include	"NPC_Goal.h"
+#include	"NPC_PathPlanner.h"
+#include	"NPC_Brain.h"
+#include	"NPC_GoalEvalutor.h"
+#include	"Environmental_Sound.h"
